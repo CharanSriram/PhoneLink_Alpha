@@ -11,5 +11,7 @@ It was developed by Charan Sriram and uses Firebase as a backend/React for the f
 # How to use
 
 PhoneLink is simple to use. On one device, click the sign-in button and select a Google account to use. This will automatically create a room that's active while your window is open.
+
 On the next device, enter your code (you may have to leave the room if ypu're in one).
+
 That's it! Any text typed in the box should appear on both devices in real-time. 
