@@ -124,12 +124,13 @@ class App extends React.Component {
               <button style={{marginTop: "15px", }} className="button" onClick={() => this.handleClick()}>Sign in</button>
             </div>
             <div style={{height: "1px", width: "70%", backgroundColor: "rgba(256, 256, 256, 0.5)", marginTop: "30px", marginBottom: "30px"}}></div>
-            <p style={{marginBottom: "10px"}}>On mobile?</p>
+            <p style={{marginBottom: "10px"}}>Join room:</p>
             <div style={{display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center"}}>
               <input onChange={(e) => this.handleChange(e, "code")} value={this.state.mobileCode} id="mobile-code" placeholder="Enter code..."></input>
               <button onClick={() => this.joinRoom()} style={{marginLeft: "10px", width: "auto", paddingLeft: "15px", paddingRight: "15px"}} className="button">Enter</button>
             </div>
           </div>
+          <a href="https://github.com/CharanSriram/PhoneLink_Alpha" id="info-section" style={{position: "relative", marginTop: "5px", maxWidth: "300px", color: "#394867"}}>This project was created by Charan Sriram</a>
         </div>
       );
     }
