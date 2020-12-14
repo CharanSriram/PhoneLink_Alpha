@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState } from 'react';
+import React from 'react';
 import { auth, provider, db } from './firebase/firebase'
 import randomize from 'randomatic'
 let annoyance = false;
