@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # About
-PhoneLink (Phonelink.tech) is a real-time software that lets you share text between devices with just your browser
+PhoneLink is a real-time software that lets you share text between devices with just your browser
 
 It was developed by Charan Sriram and uses Firebase as a backend/React for the front-end. 
 
